@@ -5,10 +5,11 @@ A Godot 4.6 (C#) 2D platformer tutorial project inspired by Hollow Knight: Silks
 ## Features
 
 - State machine player controller with the following states:
-  - Floor, Fall, Jump, Double Jump, Float, Ledge Climb, Ledge Jump
+  - Floor, Fall, Jump, Double Jump, Float, Ledge Climb, Ledge Jump, Wall Slide, Wall Jump
 - Coyote time
 - Float mechanic with cooldown
 - Ledge grab and climb with mid-climb jump
+- Wall slide and wall jump
 - Pixel art sprite animations
 
 ## Controls
