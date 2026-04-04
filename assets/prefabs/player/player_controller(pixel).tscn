@@ -494,7 +494,7 @@ drag_bottom_margin = 0.1
 [node name="CoyoteTimer" type="Timer" parent="." unique_id=344932223]
 unique_name_in_owner = true
 process_callback = 0
-wait_time = 0.2
+wait_time = 0.1
 one_shot = true
 
 [node name="FloatCooldown" type="Timer" parent="." unique_id=706215801]
@@ -517,3 +517,9 @@ target_position = Vector2(0, -50)
 unique_name_in_owner = true
 position = Vector2(0, -11)
 target_position = Vector2(14, 0)
+
+[node name="DashCooldown" type="Timer" parent="." unique_id=1246356545]
+unique_name_in_owner = true
+process_callback = 0
+wait_time = 0.1
+one_shot = true
